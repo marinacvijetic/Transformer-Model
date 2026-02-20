@@ -1,0 +1,29 @@
+# virtual env
+.venv/
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# logs / runs
+runs/
+*.log
+
+# checkpoints / weights / outputs
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# datasets/cache (HF)
+.cache/
+**/.cache/
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
