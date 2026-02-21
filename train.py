@@ -4,16 +4,17 @@ from pathlib import Path
 
 import torch
 import torchmetrics
-from datasets import load_dataset, tqdm
+from datasets import load_dataset
 from tokenizers import Tokenizer
 from tokenizers.models import WordLevel
 from tokenizers.pre_tokenizers import Whitespace
 from tokenizers.trainers import WordLevelTrainer
 from torch import nn
-from torch.utils.data import Dataset, DataLoader, random_split
+from torch.utils.data import DataLoader, random_split
 from torch.utils.tensorboard import SummaryWriter
+from tqdm import tqdm
 
-from config import get_weights_file_path, get_config
+from config import get_config, get_weights_file_path, latest_weights_file_path
 from dataset import BilingualDataset, causal_mask
 from model import build_transformer
 
@@ -166,13 +167,19 @@ def train_model(config):
     # If the user specified a model to preload before training, load it
     initial_epoch = 0
     global_step = 0
-    if config['preload']:
-        model_filename = get_weights_file_path(config, config['preload'])
-        print(f'Preloading model {model_filename}')
+
+    model_filename = None
+    if config["preload"] == "latest":
+        model_filename = latest_weights_file_path(config)
+    elif config["preload"]:
+        model_filename = get_weights_file_path(config, config["preload"])
+
+    if model_filename:
+        print(f"Preloading model {model_filename}")
         state = torch.load(model_filename)
-        initial_epoch = state['epoch'] + 1
-        optimizer.load_state_dict(state['optimizer_state_dict'])
-        global_step = state['global_step']
+        initial_epoch = state["epoch"] + 1
+        optimizer.load_state_dict(state["optimizer_state_dict"])
+        global_step = state["global_step"]
 
     loss_fn = nn.CrossEntropyLoss(ignore_index=tokenizer_src.token_to_id('[PAD]'), label_smoothing=0.1).to(device)
 
