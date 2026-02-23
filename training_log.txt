@@ -1,0 +1,185 @@
+$ python train.py
+Using device: cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Max length of source sentence: 309
+Max length of target sentence: 274
+Processing Epoch 00: 100%|█████████████████████████████████████████████████████████████| 1819/1819 [35:05<00:00,  1.16s/it, loss=6.112]
+--------------------------------------------------------------------------------
+SOURCE: He had some trouble in breaking the eggs - or rather not so much trouble in breaking them exactly as in getting them into the frying-pan when broken, and keeping them off his trousers, and preventing them from running up his sleeve; but he fixed some half-a-dozen into the pan at last, and then squatted down by the side of the stove and chivied them about with a fork.
+TARGET: Egli incontrò qualche difficoltà nel rompere le uova — o meglio non tanta difficoltà nel romperle quanta esattamente nel farle entrare nella padella, dopo ch’erano rotte, nel tenersele lontane dai calzoni e nel cercar che non gli si andassero a cacciare in una manica; ma finalmente ne potè trasferire una mezza dozzina nella padella, e quindi s’accovacciò accanto alla cucinetta, e le agitò in giro con una forchetta.
+PREDICTED: Il suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo suo , e , e , e , e , e la sua sua sua sua , e la sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua , e che era , e , e la sua sua sua sua sua , e di , e la sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua sua , e che era , e di , e , e che era , e che era , e che era di , e che era stato , e che era stato , e , e , e che si era stato , e , e che si era , e che si era , e , e si era , e , e che si era di , e che si era di , e la sua , e che si era di , e che
+--------------------------------------------------------------------------------
+SOURCE: She looked pale and thin: she said she was not happy.
+TARGET: Mi parve magra e pallida e mi disse che non era felice.
+PREDICTED: Levin era un ’ ic , ma non era stato .
+Processing Epoch 01: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [35:08<00:00,  1.16s/it, loss=5.221]
+--------------------------------------------------------------------------------
+SOURCE: To return to our present trip: nothing exciting happened, and we tugged steadily on to a little below Monkey Island, where we drew up and lunched.
+TARGET: Per ritornare alla escursione odierna: non ci accadde nulla d’interessante, e noi trascinammo bravamente la barca un po’ al di sotto dell’isola di Monkey, dove ci fermammo per la colazione.
+PREDICTED: un ' altra , ma non si , e non si , e a , e .
+--------------------------------------------------------------------------------
+SOURCE: 'And I am hampered and oppressed by the knowledge that they won't take me as a wet-nurse in the Foundlings' Hospital,' repeated the old Prince, to the great joy of Turovtsyn, who laughed till he dropped the thick end of a piece of asparagus into the sauce.
+TARGET: — E io sono impacciato e oppresso dal fatto che non mi prenderanno come balia nell’ospizio dei trovatelli! — disse di nuovo il vecchio principe con grande gioia di Tuškevic che per ridere lasciò cadere nella salsa, dalla parte grossa, un asparagio.
+PREDICTED: — Ma io , come io , e non posso fare , non posso fare , ma non posso fare il suo — disse il suo , guardando il suo , e il suo , il suo , il suo .
+Processing Epoch 02: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [49:06<00:00,  1.62s/it, loss=4.971]
+--------------------------------------------------------------------------------
+SOURCE: Down to Cookham, past the Quarry Woods and the meadows, is a lovely reach.
+TARGET: Giù fino a Cookham, oltre i boschi di Quarry e i prati, è un bellissimo tratto.
+PREDICTED: E , , la , e la è un ’ altra .
+--------------------------------------------------------------------------------
+SOURCE: When she got up, the previous day appeared in her memory as in a fog.
+TARGET: Quando si fu alzata, le venne in mente, come in una nebbia, la giornata precedente.
+PREDICTED: Quando si fermò , la mattina era stata la prima volta , la mattina era un ’ altra volta .
+Processing Epoch 03: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [1:19:06<00:00,  2.61s/it, loss=5.029]
+--------------------------------------------------------------------------------
+SOURCE: Then a solitary voice proclaimed the number for and against.
+TARGET: Dopo, una voce isolata, proclamò il numero delle favorevoli e delle sfavorevoli.
+PREDICTED: Poi la voce di un ’ altra voce e di loro .
+--------------------------------------------------------------------------------
+SOURCE: Commencing then with the first of the above-named characteristics, I say that it would be well to be reputed liberal. Nevertheless, liberality exercised in a way that does not bring you the reputation for it, injures you; for if one exercises it honestly and as it should be exercised, it may not become known, and you will not avoid the reproach of its opposite.
+TARGET: Cominciandomi, adunque alle prime soprascritte qualità dico come sarebbe bene essere tenuto liberale: non di manco, la liberalità, usata in modo che tu sia tenuto, ti offende; perché se ella si usa virtuosamente e come la si debbe usare, la non fia conosciuta, e non ti cascherà l’infamia del suo contrario.
+PREDICTED: la prima volta con le cose , io so che cosa sia , non posso , né , né , né , né , , , e che non vi , e che non vi , e che non vi .
+Processing Epoch 04: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [1:19:26<00:00,  2.62s/it, loss=4.657]
+--------------------------------------------------------------------------------
+SOURCE: "Yes."
+TARGET: — Sì.
+PREDICTED: — Sì .
+--------------------------------------------------------------------------------
+SOURCE: At every step he took he felt as a man would feel who, after admiring the smooth happy motion of a little boat upon the water, had himself got into the boat.
+TARGET: A ogni passo provava quello che prova l’uomo che, dopo aver ammirato il facile, sereno incedere di una barchetta su di un lago, segga egli stesso in quella barchetta.  
+PREDICTED: In quel momento si sentiva come se fosse stato un uomo che si fosse , e che il nostro moschetto , aveva fatto un ’ altra volta , lo aveva fatto per la barca .       
+Processing Epoch 05: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [1:19:49<00:00,  2.63s/it, loss=4.270]
+--------------------------------------------------------------------------------
+SOURCE: After wavering for some time between various kinds of art – religious, historical, genre or realistic – he began to paint.
+TARGET: Dopo un certo tempo d’incertezza sul genere di pittura da scegliere, religioso, storico, di genere o realistico, si mise a dipingere.
+PREDICTED: Dopo un tempo di quei contadini che si , , , , , , la via , e cominciò a piangere .
+--------------------------------------------------------------------------------
+SOURCE: "What was the name of that inn?" said Harris.
+TARGET: — Qual era il nome di questo albergo? — disse Harris.
+PREDICTED: — Che cosa è il vostro tedesco ? — disse Harris .
+Processing Epoch 06: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:17<00:00,  1.26s/it, loss=4.294]
+--------------------------------------------------------------------------------
+SOURCE: Semi-starvation and neglected colds had predisposed most of the pupils to receive infection: forty-five out of the eighty girls lay ill at one time.
+TARGET: Lo scarso nutrimento, i raffreddori trascurati avevano predisposto una parte delle alunne a prendere il contagio.
+PREDICTED: di e di , di , di , di , di , di cinque anni .
+--------------------------------------------------------------------------------
+SOURCE: While we were in this condition—the men yet labouring at the oar to bring the boat near the shore—we could see (when, our boat mounting the waves, we were able to see the shore) a great many people running along the strand to assist us when we should come near; but we made but slow way towards the shore; nor were we able to reach the shore till, being past the lighthouse at Winterton, the shore falls off to the westward towards Cromer, and so the land broke off a little the violence of the wind.
+TARGET: Eravamo in tale stato, ed i navicellai non davano tregua al remo per avvicinare la barca alla spiaggia. Ogni qualvolta la barca stessa veniva sollevata dalle onde, potevamo vedere e la terra e molta gente affollata per le contrade, pronta ad aiutarci appena saremmo stati vicini; ma camminavamo ben lentamente verso la spiaggia, nè potemmo raggiugnerla se non quando, passato il faro di Winterton, essa s’internava a ponente nella dirittura di Cromer, la qual giacitura ruppe alcun poco la violenza del vento.
+PREDICTED: in questa condizione , che , la scialuppa , a il mare , il mare , , , la terra , in terra , in una terra , la spiaggia in mezzo a noi ; ma quando ci in mezzo a noi , ci , in mezzo a , e il vento , non il vento ; ma non ci vedemmo più il vento , che il vento , e la spiaggia , il vento , , e il vento che , il vento , il vento , il vento , ci , ci il vento , ci , e a , e il vento , ci il vento , , il vento che il vento che , , ci , , il vento ; e il vento , , , , , , , , , , il vento .
+Processing Epoch 07: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=4.209]
+--------------------------------------------------------------------------------
+SOURCE: 'Are you acquainted with Anna Arkadyevna?'
+TARGET: — Ma voi conoscete Anna Arkad’evna?
+PREDICTED: — Siete colpevole di Anna Arkad ’ evna ?
+--------------------------------------------------------------------------------
+SOURCE: 'GONE!
+TARGET: “È andato via!
+PREDICTED: — Va ’ a dire .
+Processing Epoch 08: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.839]
+--------------------------------------------------------------------------------
+SOURCE: 'You frightened me,' she said.
+TARGET: — Mi hai spaventata.
+PREDICTED: — Voi mi avete spaventata — disse lei .
+--------------------------------------------------------------------------------
+SOURCE: 'I intended to talk to you about my sister and your mutual position,' said Oblonsky, still struggling with his unwonted timidity.
+TARGET: — Avevo intenzione, volevo parlare di mia sorella, della vostra reciproca situazione — disse Stepan Arkad’ic, lottando ancora con l’insolita timidezza.
+PREDICTED: — Ho parlato con voi alla tua sorella e della tua posizione — disse Stepan Arkad ’ ic , sempre più tranquilla .
+Processing Epoch 09: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:20<00:00,  1.26s/it, loss=3.677]
+--------------------------------------------------------------------------------
+SOURCE: He both liked and disliked them, just as he liked and disliked all human beings.
+TARGET: L’amava e non l’amava, così come gli uomini in generale.
+PREDICTED: Gli piaceva e li piaceva , come lui , non sapeva bene che tutti li uomini non erano capaci .
+--------------------------------------------------------------------------------
+SOURCE: I learned the first two tenses of the verb _Etre_, and sketched my first cottage (whose walls, by-the- bye, outrivalled in slope those of the leaning tower of Pisa), on the same day.
+TARGET: Quello stesso giorno imparai due tempi del verbo étre e disegnai la prima casetta, le cui mura erano anche più inclinate del famoso campanile di Pisa.
+PREDICTED: Vidi due volte il mio di , il mio , il cui cui era la sua casa , il cui , con le mura delle , con le mura delle delle .
+Processing Epoch 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [1:09:34<00:00,  2.30s/it, loss=3.730]
+--------------------------------------------------------------------------------
+SOURCE: He likes arguing with them,' she reflected, and then turned her mind to the problem of where she had better arrange for Katavasov to sleep – in a separate room or with Koznyshev?
+TARGET: Gli piace ragionare con lui” ella pensò, ma subito cominciò a considerare dove sarebbe stato più comodo mettere a dormire Katavasov, separatamente o insieme a Sergej Ivanyc.
+PREDICTED: Egli vuole bene — ella pensava — e poi si diede a parlare di questa domanda dove doveva andare a Mosca per un pranzo a Katavasov o con la stanza a casa con Koznyšev ?
+--------------------------------------------------------------------------------
+SOURCE: Renewing then my courage, and gathering my feeble remains of strength, I pushed on. I reached the house, and knocked at the kitchen-door.
+TARGET: Riprendendo coraggio e facendo appello alle poche forze che mi restavano, giunsi alla casa e bussai alla porta della cucina.
+PREDICTED: Allora la mia paura mi e le forze dell ' acqua ; io mi misi a sedere accanto al lume e la chiusa mi la porta .
+Processing Epoch 11: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:16<00:00,  1.26s/it, loss=3.659]
+--------------------------------------------------------------------------------
+SOURCE: Where it is really the owners that are to blame, they ought to be shown up.
+TARGET: Dove realmente i proprietari sono da biasimare, dovrebbero essere biasimati.
+PREDICTED: Dov ’ è ciò che pensano le loro parole che vanno , si debbono essere .
+--------------------------------------------------------------------------------
+SOURCE: I kept my piece in my hand still without firing, being willing to keep my charge ready, because I had given the Spaniard my pistol and sword: so I called to Friday, and bade him run up to the tree from whence we first fired, and fetch the arms which lay there that had been discharged, which he did with great swiftness; and then giving him my musket, I sat down myself to load all the rest again, and bade them come to me when they wanted.
+TARGET: Mi tenni in mano il mio moschetto senza spararlo, perchè bramava di averne prima presti altri caricati di nuovo, tanto più che la mia spada e la mia pistola le avea date allo Spagnuolo. Laonde, chiamato a me Venerdì, gli dissi di correre a piè dell’albero donde avea fatto fuoco la prima volta, e di portarmi l’archibuso e lo schioppo da caccia, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168]
+--------------------------------------------------------------------------------
+ bade him run up to the tree from whence we first fired, and fetch the arms which lay there that had been discharged, which he did with great swiftness; and then giving him my musket, I sat down myself to load all the rest again, and bade them come to me when they wanted.
+TARGET: Mi tenni in mano il mio moschetto senza spararlo, perchè bramava di averne prima presti altri caricati di nuovo, tanto più che la mia spada e la mia pistola le avea date allo Spagnuolo. Laonde, chiamato a me Venerdì, gli dissi di correre a piè dell’albero donde avea fatto fuoco la prima volta, e di portarmi l’archibuso e lo schioppo da caccia, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+musket, I sat down myself to load all the rest again, and bade them come to me when they wanted.
+TARGET: Mi tenni in mano il mio moschetto senza spararlo, perchè bramava di averne prima presti altri caricati di nuovo, tanto più che la mia spada e la mia pistola le avea date allo Spagnuolo. Laonde, chiamato a me Venerdì, gli dissi di correre a piè dell’albero donde avea fatto fuoco la prima volta, e di portarmi l’archibuso e lo schioppo da caccia, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+TARGET: Mi tenni in mano il mio moschetto senza spararlo, perchè bramava di averne prima presti altri caricati di nuovo, tanto più che la mia spada e la mia pistola le avea date allo Spagnuolo. Laonde, chiamato a me Venerdì, gli dissi di correre a piè dell’albero donde avea fatto fuoco la prima volta, e di portarmi l’archibuso e lo schioppo da caccia, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+e allo Spagnuolo. Laonde, chiamato a me Venerdì, gli dissi di correre a piè dell’albero donde avea fatto fuoco la prima volta, e di portarmi l’archibuso e lo schioppo da caccia, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+, che, senza tornarli a caricare, vi avea lasciati; il che egli fe’ con grande prestezza.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+PREDICTED: tosto la mia mano , che non vi fu più facile a comprendere , perchè i miei pensieri furono perduti , chè io m ’ avea la spada . Venerdì che gli dissi , e che dopo aver veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+er veduto l ’ albero di , gli dissi che , tosto la spiaggia , vi era morto , gli feci cenno , gli feci cenno , e tosto con essi la mia scala .
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+Processing Epoch 12: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:19<00:00,  1.26s/it, loss=3.168] 
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+--------------------------------------------------------------------------------
+SOURCE: I shuddered to hear the infatuated assertion.
+TARGET: Tremai nel sentire esprimere questa illusione.
+SOURCE: I shuddered to hear the infatuated assertion.
+TARGET: Tremai nel sentire esprimere questa illusione.
+PREDICTED: finta di ascoltare le persiane ,
+TARGET: Tremai nel sentire esprimere questa illusione.
+PREDICTED: finta di ascoltare le persiane ,
+PREDICTED: finta di ascoltare le persiane ,
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+SOURCE: On the contrary, I feel more that I want to stop in bed till the last moment, and then come down and have my breakfast.
+TARGET: Al contrario, provo più che mai il bisogno di restarmene a letto fino all’ultimo momento, e poi d’alzarmi a far colazione.
+PREDICTED: Al contrario sento di andare innanzi a me , che ho bisogno di andare fino all ’ ultima volta , e poi la colazione .
+Processing Epoch 13: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:20<00:00,  1.26s/it, loss=3.685] 
+--------------------------------------------------------------------------------
+SOURCE: The man they had got now was a jolly, light-hearted, thick-headed sort of a chap, with about as much sensitiveness in him as there might be in a Newfoundland puppy.    
+TARGET: Il rematore che avevano adesso era una specie di ottuso giovialone spensierato, con meno sensibilità d’un cucciolo di Terranova.
+PREDICTED: L ’ uomo s ’ era , era un uomo di sotto gli abiti , di con la sua carriera , per i suoi stessi movimenti , come in un aratro giovane .
+--------------------------------------------------------------------------------
+SOURCE: CHAPTER X
+TARGET: X
+PREDICTED: X
+Processing Epoch 14: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1819/1819 [38:22<00:00,  1.27s/it, loss=2.345] 
+--------------------------------------------------------------------------------
+SOURCE: 'She called on me to-day, and was so pathetic,' said the Countess, turning to Karenin. 'This separation is dreadful for her.
+TARGET: — Quest’oggi è stata da me, fa proprio pena! — disse rivolta ad Aleksej Aleksandrovic. — Questa separazione è tremenda per lei.
+PREDICTED: — Mi ha chiamato il giorno e mi ha fatto tanta pena — disse la contessa Lidija Ivanovna , rivolgendosi a Karenin . — È orribile per .
+--------------------------------------------------------------------------------
+SOURCE: Veslovsky and Tushkevich went to the bathing-house, promising to get the boat ready there and to wait for the others.
+TARGET: Veslovskij e Tuškevic andarono al bagno e promisero di preparare là una barca e di aspettare.
+PREDICTED: Veslovskij e Tuškevic , sulla sponda , andò a visitare la barca e far passare per l ’ ora per .
+(.venv)

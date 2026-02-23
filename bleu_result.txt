@@ -1,0 +1,2 @@
+Checkpoint: weights\tmodel_14.pt
+BLEU: 27.202631726256417
